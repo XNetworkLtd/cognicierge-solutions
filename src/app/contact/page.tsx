@@ -38,7 +38,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#05070A] text-slate-100 flex flex-col selection:bg-cyan-400 selection:text-black">
+    <div className="min-h-screen bg-[#060B18] text-slate-100 flex flex-col selection:bg-sky-400 selection:text-black">
       <Navigation />
 
       {/* HERO SECTION */}

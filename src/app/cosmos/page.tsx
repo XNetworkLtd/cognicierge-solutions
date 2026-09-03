@@ -53,7 +53,7 @@ export default function CosmosPage() {
   const [selectedSatInfo, setSelectedSatInfo] = useState<string>('COSMOS SENTINEL Orbital Node');
 
   return (
-    <div className="min-h-screen bg-[#04060B] text-slate-100 flex flex-col selection:bg-cyan-400 selection:text-black">
+    <div className="min-h-screen bg-[#060B18] text-slate-100 flex flex-col selection:bg-sky-400 selection:text-black">
       <Navigation />
 
       {/* HERO SECTION */}

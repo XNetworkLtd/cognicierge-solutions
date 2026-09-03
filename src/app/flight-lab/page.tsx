@@ -43,7 +43,7 @@ export default function FlightLabPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#06080E] text-slate-100 flex flex-col selection:bg-cyan-400 selection:text-black">
+    <div className="min-h-screen bg-[#060B18] text-slate-100 flex flex-col selection:bg-sky-400 selection:text-black">
       <Navigation />
 
       {/* HERO SECTION */}

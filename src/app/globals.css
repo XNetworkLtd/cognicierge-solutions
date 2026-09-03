@@ -2,26 +2,26 @@
 @import "tailwindcss";
 
 :root {
-  --bg-dark: #07090E;
-  --bg-card: #0E131F;
-  --bg-card-hover: #141C2E;
-  --border-cyan: rgba(0, 229, 255, 0.2);
-  --border-muted: rgba(255, 255, 255, 0.08);
-  --accent-cyan: #00E5FF;
-  --accent-blue: #0088FF;
-  --accent-amber: #FFB300;
-  --accent-emerald: #00E676;
-  --text-main: #F1F5F9;
+  --bg-dark: #060B18;
+  --bg-card: #0F172A;
+  --bg-card-hover: #1E293B;
+  --border-cyan: rgba(56, 189, 248, 0.25);
+  --border-muted: rgba(255, 255, 255, 0.1);
+  --accent-cyan: #38BDF8;
+  --accent-blue: #2563EB;
+  --accent-amber: #F59E0B;
+  --accent-emerald: #10B981;
+  --text-main: #F8FAFC;
   --text-muted: #94A3B8;
 }
 
 body {
-  background-color: var(--bg-dark);
+  background-color: #060B18;
   color: var(--text-main);
   font-family: 'Outfit', sans-serif;
   overflow-x: hidden;
-  selection-background-color: #00E5FF;
-  selection-color: #07090E;
+  selection-background-color: #38BDF8;
+  selection-color: #060B18;
 }
 
 .font-mono-tech {
@@ -35,47 +35,47 @@ body {
 /* Background Engineering Grid */
 .bg-tech-grid {
   background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
 .bg-tech-grid-dense {
   background-image: 
-    linear-gradient(to right, rgba(0, 229, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 229, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(to right, rgba(56, 189, 248, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.08) 1px, transparent 1px);
   background-size: 16px 16px;
 }
 
 /* Glow Utilities */
 .glow-cyan-sm {
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.25);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
 }
 
 .glow-cyan-md {
-  box-shadow: 0 0 30px rgba(0, 229, 255, 0.35);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.45);
 }
 
 .glow-amber-sm {
-  box-shadow: 0 0 15px rgba(255, 179, 0, 0.3);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.35);
 }
 
 .text-glow-cyan {
-  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+  text-shadow: 0 0 12px rgba(56, 189, 248, 0.7);
 }
 
 /* HUD Panel & Glassmorphism */
 .hud-panel {
-  background: rgba(14, 19, 31, 0.75);
+  background: rgba(15, 23, 42, 0.85);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
 }
 
 .hud-panel-cyan {
-  background: rgba(14, 19, 31, 0.85);
+  background: rgba(15, 23, 42, 0.9);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(0, 229, 255, 0.3);
+  border: 1px solid rgba(56, 189, 248, 0.35);
   position: relative;
 }
 
@@ -86,22 +86,22 @@ body {
   position: absolute;
   width: 8px;
   height: 8px;
-  border-color: rgba(0, 229, 255, 0.7);
+  border-color: rgba(56, 189, 248, 0.8);
   pointer-events: none;
 }
 
 .hud-corners::before {
   top: -1px;
   left: -1px;
-  border-top: 2px solid rgba(0, 229, 255, 0.7);
-  border-left: 2px solid rgba(0, 229, 255, 0.7);
+  border-top: 2px solid rgba(56, 189, 248, 0.8);
+  border-left: 2px solid rgba(56, 189, 248, 0.8);
 }
 
 .hud-corners::after {
   bottom: -1px;
   right: -1px;
-  border-bottom: 2px solid rgba(0, 229, 255, 0.7);
-  border-right: 2px solid rgba(0, 229, 255, 0.7);
+  border-bottom: 2px solid rgba(56, 189, 248, 0.8);
+  border-right: 2px solid rgba(56, 189, 248, 0.8);
 }
 
 /* Radar & Scanning Keyframes */
@@ -133,7 +133,7 @@ body {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, transparent, rgba(0, 229, 255, 0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.5), transparent);
   animation: scanline 8s linear infinite;
   pointer-events: none;
 }
@@ -154,7 +154,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #07090E;
+  background: #060B18;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -163,5 +163,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00E5FF;
+  background: #38BDF8;
 }

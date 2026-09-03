@@ -18,7 +18,7 @@ const AtlasScene = dynamic(() => import('@/components/canvas/AtlasScene'), { ssr
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[#07090E] text-slate-100 flex flex-col selection:bg-cyan-400 selection:text-black">
+    <div className="min-h-screen bg-[#060B18] text-slate-100 flex flex-col selection:bg-sky-400 selection:text-black">
       <Navigation />
 
       {/* HERO SECTION */}
@@ -95,7 +95,7 @@ export default function HomePage() {
 
 
       {/* TECHNOLOGY DOMAINS: FOUR WORLDS */}
-      <section id="four-worlds" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#090C14] border-t border-b border-slate-800/80 relative">
+      <section id="four-worlds" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#0B1328] border-t border-b border-blue-900/40 relative">
         <div className="max-w-7xl mx-auto space-y-16">
           
           <div className="text-center max-w-3xl mx-auto space-y-3">
