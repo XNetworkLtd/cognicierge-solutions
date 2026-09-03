@@ -218,8 +218,8 @@ export default function ContactPage() {
                 Deep-Tech Hardware R&amp;D Facilities &amp; Autonomous Systems Innovation Hub.
               </p>
               <div className="text-[11px] text-slate-400 space-y-1">
-                <div>BANGALORE, KARNATAKA, INDIA</div>
-                <div>PRIMARY COORDINATES: 12.9716° N, 77.5946° E</div>
+                <div>KOLKATA, WB, INDIA</div>
+                <div>PRIMARY COORDINATES: 22.5726° N, 88.3639° E</div>
               </div>
             </div>
 
@@ -229,8 +229,8 @@ export default function ContactPage() {
                 <span>ENGINEERING CHANNELS</span>
               </div>
               <div className="space-y-2 text-xs text-slate-300">
-                <div>contact@cognicierge.in</div>
-                <div>engineering@cognicierge.in</div>
+                <div>team.cognicierge@gmail.com</div>
+                <div>imshiv.verma@gmail.com</div>
               </div>
             </div>
 
